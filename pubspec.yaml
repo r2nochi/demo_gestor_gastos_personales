@@ -1,0 +1,46 @@
+name: saldo
+description: Saldo — gestor de gastos e ingresos personales.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+  flutter: ">=3.19.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  # State
+  provider: ^6.1.2
+
+  # Persistence
+  sqflite: ^2.3.3
+  path: ^1.9.0
+  path_provider: ^2.1.4
+  shared_preferences: ^2.3.2
+
+  # UI
+  fl_chart: ^0.68.0
+  google_fonts: ^6.2.1
+  flutter_slidable: ^3.1.1
+
+  # Utils
+  intl: ^0.20.2
+
+  # Notifications & sharing
+  flutter_local_notifications: ^17.2.3
+  timezone: ^0.9.4
+  share_plus: ^10.0.2
+
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true

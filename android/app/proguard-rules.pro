@@ -1,0 +1,6 @@
+-keep class com.dexterous.** { *; }
+-keep class com.google.android.gms.** { *; }
+-keep class androidx.lifecycle.DefaultLifecycleObserver
+-dontwarn org.bouncycastle.jsse.**
+-dontwarn org.conscrypt.**
+-dontwarn org.openjsse.**
